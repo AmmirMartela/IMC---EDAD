@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#imc">IMC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="edad.html">Edad de mascota</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</header>
+
+<body>
+
+
+
+    <h1>Cálculo de IMC</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, adipisci! Quas aut qui facere cum nesciunt quis,
+        inventore ducimus doloremque, error veniam quidem vero illum non modi harum repellat quo! Lorem ipsum dolor sit
+        amet consectetur, adipisicing elit. Quasi reiciendis, eius porro nam quidem nobis cumque quis harum. Voluptatum
+        deleniti reiciendis atque reprehenderit suscipit commodi possimus saepe provident excepturi distinctio?</p>
+    <a href="imc"></a>
+    <div class="si">
+        <label for="peso">Peso (libras):</label>
+        <input type="number" id="peso"><br><br>
+
+        <label for="altura">Altura (pulgadas):</label>
+        <input type="number" id="altura" ><br><br>
+
+        <button onclick="calcularIMC()">Calcular IMC</button>
+        <h3>Resultado:</h3>
+        <p id="resultado"></p>
+        <script src="js/java.js"></script>
+    </div>
+</body>
+
+</html>
